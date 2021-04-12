@@ -33,6 +33,7 @@ const AppointmentHeader = ({ setValue, value }) => {
       justify="center"
       alignItems="center"
       className={classes.main}
+      className="appointment-header-bg"
     >
       <Grid item xs={12} sm={12} md={4} lg={4} xl={4}>
         <Typography variant="h2" className={classes.headerTitle}>
